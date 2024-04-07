@@ -60,6 +60,7 @@ header{
     height: 100%;
     width: 100%;
     opacity: 0.9;
+
 }
 
 #carouselExampleAutoplaying .carousel-inner .carousel-caption h5{
@@ -1467,8 +1468,15 @@ color: transparent;
 
 
 /* Small devices (sm) */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
+
+    #carouselExampleAutoplaying  .carosel-img{
+        height: auto;
+        width: 100%;
+    }
+
     
+  
   }
   
   /* Medium devices (md) */
