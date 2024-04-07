@@ -1464,6 +1464,24 @@ color: transparent;
 }
 /* media query */
 
+@media(max-width:430px){
+
+    #ipl-teams .b-img {
+      width: 160px;
+  }
+  }
+  @media(max-width:375px){
+  
+    #ipl-teams .b-img {
+      width: 140px;
+  }
+  }
+  @media(max-width:280px){
+  
+    #ipl-teams .b-img {
+      width: 100px;
+  }
+  }
 
 
 
